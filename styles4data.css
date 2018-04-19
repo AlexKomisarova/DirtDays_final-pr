@@ -1,0 +1,71 @@
+body {
+    background: url("back3.jpg");
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: 100%;
+    font-family: Airbone, fantasy;
+    opacity: 0;
+    transition: .6s;
+}
+@font-face {
+    font-family: Airbone;
+    src: url('10726.ttf');
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.couch {
+    display:none;
+}
+.event {
+    display:none;
+}
+form{
+    position:relative;
+    display: block;
+    margin-top: 100px;
+    margin-left: 56%;
+    height: 50%;
+    color:white;
+    width: 30%;
+    margin-bottom: -100px;
+    padding-top: 30px;
+}
+#emailHelp {
+    font-size: xx-small;
+    opacity: .7;
+}
+P {
+    color:white;
+    width: 70%;
+}
+.form-check {
+    position:relative;
+    display: block;
+    color:white;
+    margin-top: 120px;
+    margin-left: 56%;
+}
+.btn {
+    text-align: center;
+    border-width:1px;
+    border-color:white;
+    background: none;
+    padding:10px 30px 10px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: smaller;
+    font-family: Airbone, fantasy;
+    margin-left: 56%;
+    margin-top: 20px;
+}
+.trail {
+    padding-top: 0;
+}

@@ -1,0 +1,122 @@
+body {
+    background: white;
+    opacity: 0;
+    transition: .6s;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: 100%;
+    font-family: Airbone, fantasy;
+    color:#100040;
+}
+@font-face {
+    font-family: Airbone;
+    src: url('10726.ttf');
+}
+a {
+    color: #100040;
+    text-decoration: none;
+}
+
+.manybikes {
+    display:flex;
+    flex-wrap:wrap;
+    width: 60%;
+    margin-top: 1%;
+    text-align: center;
+}
+div > h2{
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    z-index: 1;
+}
+h5 {
+    position: relative;
+    display: block;
+    width: 10%;
+    font-size: small;
+}
+.add {
+    text-align: center;
+    border-width:1px;
+    border-color:#100040;
+    background: none;
+    float: bottom;
+    cursor: pointer;
+    font-size: xx-small;
+}
+figure {
+    position: relative;
+    width: 33%;
+    min-width: 250px;
+    border: 1px solid #100040;
+    border-radius: 3em;
+}
+figure > img {
+    width: 100%;
+}
+figure > figcaption {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+div.rentbikes {
+    float: right;
+    position:absolute;
+    margin-left: 67%;
+    margin-top: -70%;
+    width: 35%;
+    color:#100040;
+}
+h3 {
+    margin-left: 2%;
+}
+.bike_trail {
+    margin-top: 25%;
+}
+.booknow{
+    float:right;
+    position: relative;
+    margin-right:66%;
+    margin-top: 5%;
+    border-width:1px;
+    border-color:white;
+    background: #100040;
+    padding:10px 30px 10px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: smaller;
+}
+.name{
+    font-size: large;
+
+}
+.nobikes {
+    display: none;
+    width: 100%;
+    padding: 3%;
+    opacity: .7;
+}
+.rented .del >button {
+    position: relative;
+    padding:5px 15px 5px 15px;
+    cursor: pointer;
+    font-size: x-small;
+    background: none;
+    color: white;
+    background: #100040;
+}
+.chosen.empty .rented {
+    display:none;
+}
+td {
+    padding: 5px;
+}
+.chosen.empty .nobikes {
+    display: block;
+}
