@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    opacity: 0;
+    transition: .6s;
+    margin: 0;
+    padding: 0;
+    height: 90%;
+    background-size: 100%;
+    font-family: Airbone, fantasy;
+}
+@font-face {
+    font-family: Airbone;
+    src: url('../font/10726.ttf');
+}
+a {
+    color: #100040;
+    text-decoration: none;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+form {
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 1%;
+    z-index: 1;
+}
+h1{
+    color: #100040;
+    cursor: pointer;
+    z-index: 1;
+}
+.guide {
+    color: #100040;
+    display: none;
+    font-size: small;
+    position: absolute;
+    width:500px;
+    z-index: 1;
+}
+#map {
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    padding: 0;
+    opacity: .8;
+}
+aside{
+    position:absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#whistler{
+    font-size: x-small;
+    position:relative;
+    margin-left: 56%;
+    width: 20%;
+    overflow: visible;
+    display:none;
+}
+#threelakes  {
+    font-size: x-small;
+    position:relative;
+    margin-left: 56%;
+    width: 20%;
+    overflow: visible;
+    display:none;
+}
+#montefior {
+    font-size: x-small;
+    position:relative;
+    margin-left: 56%;
+    width: 20%;
+    overflow: visible;
+    display:none;
+}
+#hahnenkamm {
+    font-size: x-small;
+    position:relative;
+    margin-left: 56%;
+    width: 20%;
+    overflow: visible;
+    display:none;
+}
